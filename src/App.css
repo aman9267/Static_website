@@ -1,0 +1,12 @@
+.App {
+  max-width: 1600px !important;
+  margin: auto;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

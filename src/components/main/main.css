@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 600px;
+}
+.text {
+  grid-row: 1;
+  color: #177280;
+  font-family: 'Prompt', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.text h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.text p{
+  font-size: 1.5rem;
+}
+.text button {
+  margin-top: 1rem;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  background-color: #177280;
+  color: #fff;
+  font-family: 'Prompt', sans-serif;
+}
+.image_container{
+  grid-row: 1;
+}
+.image_container {
+  background: url("../../../public/car.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
